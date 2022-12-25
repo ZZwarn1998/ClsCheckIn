@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:title="@string/stu_main_nav_upd"
+            android:id="@+id/nav_upd"
+            android:icon="@mipmap/update_icon"
+            />
+        <item
+            android:title="@string/stu_main_nav_exit"
+            android:id="@+id/nav_exit"
+            android:icon="@mipmap/exit"
+            />
+    </group>
+</menu>

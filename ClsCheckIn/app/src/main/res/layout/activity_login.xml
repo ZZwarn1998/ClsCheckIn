@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".act.login.Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="300sp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cls"
+                    android:gravity="center"
+                    android:fontFamily="@font/showg"
+                    android:textColor="@color/cornflowerblue"
+                    android:textSize="50sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/check"
+                    android:gravity="center"
+                    android:textColor="@color/royalblue"
+                    android:fontFamily="@font/showg"
+                    android:textSize="50sp">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/in"
+                    android:gravity="center"
+                    android:textColor="@color/lightblue"
+                    android:fontFamily="@font/showg"
+                    android:textSize="50sp">
+                </TextView>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:gravity="center"
+                    android:text="@string/id"
+                    android:fontFamily="@font/showg"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+                </TextView>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_id"
+                    android:layout_width="240sp"
+                    android:layout_height="40sp"
+                    android:inputType="text"
+                    android:fontFamily="@font/califr"
+                    android:gravity="center"
+                    android:maxLength="9"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="50sp"
+                    android:layout_height="40sp"
+                    android:gravity="center"
+                    android:text="@string/pwd"
+                    android:fontFamily="@font/showg"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="20sp">
+                </TextView>
+                <TextView
+                    android:layout_width="10sp"
+                    android:layout_height="match_parent">
+                </TextView>
+                <EditText
+                    android:id="@+id/edt_pwd"
+                    android:layout_width="240sp"
+                    android:layout_height="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/califr"
+                    android:gravity="center"
+                    android:digits="@string/rule_pwd"
+                    android:inputType="textPassword"
+                    android:maxLength="18">
+                </EditText>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id = "@+id/login"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:text="@string/login"
+                android:textColor="@color/btn_txt_color_selector"
+                android:fontFamily="@font/showg"
+                android:backgroundTint="@color/btn_bg_color_selector">
+            </Button>
+            <RelativeLayout
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/transparent_btn"
+                    android:fontFamily="@font/showg"
+                    android:gravity="center"
+                    android:text="@string/register"
+                    android:textColor="@color/txt_color_selector"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/forget"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40sp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/transparent_btn"
+                    android:fontFamily="@font/showg"
+                    android:gravity="center"
+                    android:text="@string/forget"
+                    android:textColor="@color/txt_color_selector"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

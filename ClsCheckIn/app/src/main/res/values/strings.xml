@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">ClsCheckIn</string>
+    <!-- spinner-->
+    <string-array name="Gender">
+        <item name="Male">Male</item>
+        <item name="Female">Female</item>
+    </string-array>
+    <!-- login-->
+    <string name="id">ID</string>
+    <string name="pwd">PWD</string>
+    <string name="login">Login</string>
+    <string name="forget">forget</string>
+    <string name="register">Register</string>
+    <string name="cls">cls</string>
+    <string name="check">check</string>
+    <string name="in">in</string>
+    <string name="rule_pwd">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
+    <string name="rule_id">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <!-- change-->
+    <string name="change_title">Change Password</string>
+    <string name="change_id">ID</string>
+    <string name="change_pwd">PWD</string>
+    <string name="change_pwd2">Confirm PWD</string>
+    <string name="change_done_btn">Done</string>
+    <string name="change_new_pwd">New PWD</string>
+    <string name="change_confirm">Confirm</string>
+    <!-- forget-->
+    <string name="forget_title">Forget PWD?</string>
+    <string name="forget_name">Name</string>
+    <string name="forget_id">ID</string>
+    <string name="forget_verify_btn">Verify</string>
+
+    <!-- register-->
+    <string name="register_title">Register</string>
+    <string name="register_verify_btn">Verify</string>
+    <string name="register_null">null</string>
+    <!-- register/student-->
+    <string name="register_stu_title">Register Student Account</string>
+    <string name="register_stu_id">ID</string>
+    <string name="register_stu_name">Name</string>
+    <string name="register_stu_pwd">PWD</string>
+    <string name="register_stu_pwd2">Confirm PWD</string>
+    <string name="register_stu_gender">Gender</string>
+    <string name="register_stu_select_btn">Select</string>
+    <string name="register_stu_face">Face</string>
+    <string name="register_stu_done">Done</string>
+    <!-- register/teacher-->
+    <string name="register_tchr_title">Register Teacher Account</string>
+    <string name="register_tchr_name">Name</string>
+    <string name="register_tchr_id">ID</string>
+    <string name="register_tchr_pwd">PWD</string>
+    <string name="register_tchr_pwd2">Confirm PWD</string>
+    <string name="register_tchr_gender">Gender</string>
+    <string name="register_tchr_done">Done</string>
+    <!-- teacher_main-->
+    <string name="tchr_main_toolbar_title">Welcome, professor.</string>
+    <string name="tchr_main_course">Course</string>
+    <!-- student_main-->
+    <string name="stu_main_toolbar_title">Welcome, student.</string>
+    <!-- teacher_main spinner test-->
+    <string-array name="test">
+        <item></item>
+        <item>Advanced Programing Language</item>
+        <item>Software Engineering</item>
+        <item>Computer Architecture</item>
+    </string-array>
+    <!-- teacher_main_nav-->
+    <string name="tchr_main_nav_upd">Update Personal Info</string>
+    <string name="tchr_main_nav_upld">Upload Attendance Sheet</string>
+    <string name="tchr_main_nav_get">Get Result</string>
+    <string name="tchr_main_nav_exit">Exit</string>
+    <string name="tchr_main_nav_name">Name</string>
+    <string name="tchr_main_nav_id">ID</string>
+    <!-- student_main_nav-->
+    <string name="stu_main_nav_upd">Update Personal Info</string>
+    <string name="stu_main_nav_exit">Exit</string>
+    <!-- teacher_main_fab-->
+    <string name="tchr_main_fab_select">Select a way …</string>
+    <string name="tchr_main_fab_camera">From camera …</string>
+    <string name="tchr_main_fab_gallery">From gallery …</string>
+    <string name="tchr_main_fab_discard">Discard</string>
+    <!-- teacher_update_info-->
+    <string name="tchr_update_info_title">Update Info</string>
+    <string name="tchr_update_id">ID</string>
+    <string name="tchr_update_name_note">Please enter new name.</string>
+    <string name="tchr_update_id_note">Please enter new name.</string>
+    <string name="tchr_update_gender">Gender</string>
+    <string name="tchr_update_done">Done</string>
+    <!-- teacher_upload_class-->
+    <string name="tchr_upload_title">Upload Attendance</string>
+    <string name="tchr_upload_select">Select …</string>
+    <string name="tchr_upload_txt_hint">File Path</string>
+    <string name="tchr_upload_txt_clsid">Class ID</string>
+    <string name="tchr_upload_txt_name">Class Name</string>
+    <string name="tchr_upload_txt_id_hint">e.g., CSE103.</string>
+    <string name="tchr_upload_txt_name_hint">e.g., Data Structure.</string>
+    <string name="tchr_upload_btn_upld">Upload</string>
+    <string name="rule_cls_id">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <!-- student_update-->
+    <string name="stu_update_info">Update Info</string>
+    <string name="stu_update_title">Update Info</string>
+    <string name="stu_update_id">ID</string>
+    <string name="stu_update_name">Name</string>
+    <string name="stu_update_pwd">PWD</string>
+    <string name="stu_update_gender">Gender</string>
+    <string name="stu_update_select_btn">Select</string>
+    <string name="stu_update_face">Face</string>
+    <string name="stu_update_done">Done</string>
+    <!-- teacher_get_result-->
+    <string name="tchr_get_title">Absent Students</string>
+    <string name="tchr_get_result_empty">Empty Result</string>
+    <string name="tchr_get_back">Back</string>
+<!--    <string name="text">Zhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\r\nZhicheng Zhang (12132375)\nZhicheng Zhang (12132375)</string>-->
+
+
+</resources>

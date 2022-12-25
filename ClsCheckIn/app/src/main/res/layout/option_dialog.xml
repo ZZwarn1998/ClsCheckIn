@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/tchr_main_fab_select"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/showg"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/opt_camera"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/tchr_main_fab_camera"
+            android:fontFamily="@font/showg"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/opt_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="@string/tchr_main_fab_gallery"
+            android:fontFamily="@font/showg"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/opt_discard"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/showg"
+            android:textSize="16sp"
+            android:textColor="@color/lightgrey"
+            android:text="@string/tchr_main_fab_discard"
+            android:gravity="center" />
+    </LinearLayout>
+
+</layout>

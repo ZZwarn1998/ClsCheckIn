@@ -1,0 +1,102 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <listener>
+    <listener-class>
+      org.apache.commons.fileupload.servlet.FileCleanerCleanup
+    </listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>LogIn</servlet-name>
+    <servlet-class>com.dachuang.servlet.login.LogInServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReFreshSpinner</servlet-name>
+    <servlet-class>com.dachuang.servlet.tchr_operation.ReFreshSpinnerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Verify</servlet-name>
+    <servlet-class>com.dachuang.servlet.login.VerifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Match</servlet-name>
+    <servlet-class>com.dachuang.servlet.login.MatchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StuUpdate</servlet-name>
+    <servlet-class>com.dachuang.servlet.stu_operation.StuUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StuRegister</servlet-name>
+    <servlet-class>com.dachuang.servlet.login.StuRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TchrRegister</servlet-name>
+    <servlet-class>com.dachuang.servlet.login.TchrRegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePwd</servlet-name>
+    <servlet-class>com.dachuang.servlet.login.ChangePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TchrCheckAttendance</servlet-name>
+    <servlet-class>com.dachuang.servlet.tchr_operation.TchrCheckAttendanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TchrUpdate</servlet-name>
+    <servlet-class>com.dachuang.servlet.tchr_operation.TchrUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TchrUploadAttendance</servlet-name>
+    <servlet-class>com.dachuang.servlet.tchr_operation.TchrUploadAttendanceServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LogIn</servlet-name>
+    <url-pattern>/LogIn/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReFreshSpinner</servlet-name>
+    <url-pattern>/ReFreshSpinner/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Verify</servlet-name>
+    <url-pattern>/Verify/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Match</servlet-name>
+    <url-pattern>/Match/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuUpdate</servlet-name>
+    <url-pattern>/StuUpdate/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuRegister</servlet-name>
+    <url-pattern>/StuRegister/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TchrRegister</servlet-name>
+    <url-pattern>/TchrRegister/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwd</servlet-name>
+    <url-pattern>/ChangePwd/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TchrCheckAttendance</servlet-name>
+    <url-pattern>/TchrCheckAttendance/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TchrUploadAttendance</servlet-name>
+    <url-pattern>/TchrUploadAttendance/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TchrUpdate</servlet-name>
+    <url-pattern>/TchrUpdate/*</url-pattern>
+  </servlet-mapping>
+</web-app>
+

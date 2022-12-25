@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zzwarn.clscheckin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconn"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/iconn_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ClsCheckIn"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name=".act.login.Forget"
+            android:exported="true" />
+        <activity
+            android:name=".act.login.ChangePWD"
+            android:exported="true" />
+        <activity
+            android:name=".act.login.TchrRegister"
+            android:exported="true" />
+        <activity
+            android:name=".act.login.StuRegister"
+            android:exported="true" />
+        <activity
+            android:name=".act.tchr.Tchr_get"
+            android:exported="true" />
+        <activity
+            android:name=".act.tchr.Tchr_upload"
+            android:exported="true" />
+        <activity
+            android:name=".act.tchr.Tchr_update"
+            android:exported="true" />
+        <activity
+            android:name=".act.stu.Stu_update"
+            android:exported="true" />
+        <activity
+            android:name=".act.tchr.Tchr_main"
+            android:exported="true" />
+        <activity
+            android:name=".act.stu.Stu_main"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".act.login.ChangeVerify" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name=".act.login.Register"
+            android:exported="true" />
+        <activity
+            android:name=".act.login.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.zzwarn.clscheckin.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/path" />
+        </provider>
+    </application>
+
+</manifest>
